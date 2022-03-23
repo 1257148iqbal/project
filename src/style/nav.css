@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(55, 37, 80);
+    justify-content: space-around; 
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+ 
+.nav-menu{
+    display: flex;
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around; 
+    cursor: pointer;
+}
