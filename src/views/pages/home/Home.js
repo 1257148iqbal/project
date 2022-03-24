@@ -3,7 +3,13 @@
  
  const Home = () => {
    return (
-     <h1 className='welcome'>Welcome Home Page</h1>
+     <div className='homeCard'>
+
+       <h1>Welcome Home Page</h1>
+        <div className='title'>
+          <p className='text-center'>This is React App</p>
+        </div>
+     </div>
    )
  }
  

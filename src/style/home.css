@@ -1,7 +1,21 @@
-.welcome{
+
+.homeCard{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
+}
+
+.homeCard:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.homeCard h1{
     text-align: center;
     align-items: center;
     color: #372550;
-    margin-top: 150px;
-    padding: 20% 20px;
-}
+    margin-top: 50px;
+    padding-top: 120px;
+    font-size: 50px;
+};
