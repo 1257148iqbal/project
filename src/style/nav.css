@@ -3,19 +3,26 @@
     padding: 0;
 }
 
-.App{
-    text-align: center;
+.logo img{
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+}
+.logo{
+    width: 65%;
 }
 
 .nav{
     display: flex;
     width: 100%;
     background-color: rgb(55, 37, 80);
-    justify-content: space-around; 
+    /* justify-content: space-around;  */
     align-items: center;
     box-sizing: border-box;
     min-height: 10vh;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+    top:0px
     
 }
  
@@ -24,9 +31,16 @@
     width: 30%;
     color: white;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 600;
     align-items: center;
     list-style: none;
     justify-content: space-around; 
     cursor: pointer;
+    gap: 15px;
+    text-decoration: none;
 }
+.nav-menu li a{
+    color: white;
+    text-decoration: none;
+}
+
