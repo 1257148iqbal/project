@@ -1,0 +1,33 @@
+.maindiv{
+    padding: 50px 20px 10px 20px;
+}
+.maindiv input{
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#customer{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customer th, #customer td{
+    border: 1px solid #222;
+    padding: 8px;
+}
+
+#customer tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#customer tr:hover{
+    background-color: #ddd;
+}
+#customer th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}

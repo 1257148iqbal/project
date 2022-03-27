@@ -5,6 +5,7 @@ import Contact from "./views/pages/contact/Contact";
 import "./style/nav.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import TableFilter from "./views/pages/test/TableFilter";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<TableFilter />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
